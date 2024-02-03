@@ -12,6 +12,16 @@ gtag('event', 'conversion', { 'send_to': 'AW-862283090/e01VCKSky40ZENLKlZsD' });
 // Event snippet for FinalizaçãoDeCompra conversion page
 gtag('event', 'conversion', { 'send_to': 'AW-862283090/iFwVCPnRko0ZENLKlZsD' });
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KGLV1576M0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KGLV1576M0');
+</script>
+
 // Melhoria na interação usando JavaScript
 // Função para ação de compra
 function comprar() {
