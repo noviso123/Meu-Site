@@ -14,7 +14,7 @@ footer {
     background: rgba(255, 255, 255, 0.9); /* Fundo branco com leve transparência */
     border-radius: 1%; /* Borda arredondada */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave para uma aparência moderna */
-    margin: 1% auto; /* Centralizar o conteúdo na tela */
+    margin: 10px auto; /* Centralizar o conteúdo na tela */
     max-width: 62%; /* Limitar a largura para uma leitura mais fácil */
     text-align: left;
 }
@@ -61,7 +61,7 @@ iframe,
 img {
     width: 49%; /* Garante que o vídeo ou imagem ocupa 50% da largura da seção */
     height: 315px; /* Defina a altura desejada do vídeo ou imagem */
-    margin: 1% 0; /* Adiciona margem para espaçamento */
+    margin: 10px 0; /* Adiciona margem para espaçamento */
     border: 5px solid #007bff; /* Adiciona borda */
     border-radius: 15%; /* Borda arredondada */
 }
@@ -92,7 +92,7 @@ img {
     width: 100%; /* Ocupa 100% da largura do contêiner pai */
     max-width: 180px; /* Largura máxima */
     height: auto; /* Altura automática para manter a proporção */
-    border: 5% solid #007bff;
+    border: 10px solid #007bff;
     border-radius: 10px;
     margin-bottom: 10px;
 }
