@@ -22,6 +22,8 @@ gtag('event', 'conversion', { 'send_to': 'AW-862283090/iFwVCPnRko0ZENLKlZsD' });
   gtag('config', 'G-KGLV1576M0');
 </script>
 
+gtag('config', 'AW-862283090');
+
 // Melhoria na interação usando JavaScript
 // Função para ação de compra
 function comprar() {
@@ -49,4 +51,4 @@ function gtag_report_conversion(url) {
 // Note: Este script já está incluído no HTML, este bloco apenas ilustra a referência ao AdSense
 // Certifique-se de configurar o AdSense corretamente para o seu caso
 // Código do AdSense:
-// <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9013233807727287" crossorigin="anonymous"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9013233807727287" crossorigin="anonymous"></script>
