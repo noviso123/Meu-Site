@@ -9,13 +9,14 @@ body {
 
 section,
 footer {
-    padding: 20px;
+    padding: 2.5%;
     box-sizing: border-box;
     background: rgba(255, 255, 255, 0.9); /* Fundo branco com leve transparência */
-    border-radius: 10px; /* Borda arredondada */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para uma aparência moderna */
-    margin: 20px auto; /* Centralizar o conteúdo na tela */
-    max-width: 800px; /* Limitar a largura para uma leitura mais fácil */
+    border-radius: 1%; /* Borda arredondada */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave para uma aparência moderna */
+    margin: 1% auto; /* Centralizar o conteúdo na tela */
+    max-width: 62%; /* Limitar a largura para uma leitura mais fácil */
+    text-align: left;
 }
 
 h1,
@@ -50,7 +51,7 @@ a:hover {
 
 section {
     overflow: hidden;
-    text-align: center; /* Centralizar o texto */
+    text-align: left/* Centralizar o texto */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,11 +59,16 @@ section {
 
 iframe,
 img {
-    width: 100%; /* Garante que o vídeo ou imagem ocupa 100% da largura da seção */
+    width: 49%; /* Garante que o vídeo ou imagem ocupa 50% da largura da seção */
     height: 315px; /* Defina a altura desejada do vídeo ou imagem */
-    margin: 20px 0; /* Adiciona margem para espaçamento */
+    margin: 1% 0; /* Adiciona margem para espaçamento */
     border: 5px solid #007bff; /* Adiciona borda */
-    border-radius: 10px; /* Borda arredondada */
+    border-radius: 15%; /* Borda arredondada */
+}
+
+.selo {
+    width: 100%; /* Garante que o vídeo ou imagem ocupa 100% da largura da seção */
+    height: 100%; /* Defina a altura desejada do vídeo ou imagem */
 }
 
 .testimonial {
@@ -86,19 +92,7 @@ img {
     width: 100%; /* Ocupa 100% da largura do contêiner pai */
     max-width: 180px; /* Largura máxima */
     height: auto; /* Altura automática para manter a proporção */
-    border: 5px solid #007bff;
+    border: 5% solid #007bff;
     border-radius: 10px;
     margin-bottom: 10px;
-}
-
-.testimonial p {
-    margin: 10px 0; /* Ajusta a margem do parágrafo */
-}
-
-.price {
-    margin-bottom: 20px;
-}
-
-footer {
-    margin-top: 20px; /* Adiciona margem acima do rodapé */
 }
