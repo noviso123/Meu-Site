@@ -7,51 +7,187 @@
     <title>Venda em 48h</title>
     <!-- Adicione sua fonte do Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap">
-    <!-- Link para o arquivo de estilo CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <!-- Estilo CSS incorporado -->
+    <style>
+        body {
+            background: none;
+            color: #000;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        section,
+        footer {
+            padding: 2.5%;
+            box-sizing: border-box;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin: 10px auto;
+            max-width: 800px;
+            text-align: left;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #007bff;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        section {
+            overflow: hidden;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        iframe,
+        img {
+            width: 49%;
+            height: 315px;
+            margin: 10px 0;
+            border: 5px solid #007bff;
+            border-radius: 15%;
+        }
+
+        .selo {
+            width: 100%;
+            height: 100%;
+        }
+
+        .testimonial {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .testimonial-item {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 220px;
+        }
+
+        .testimonial img {
+            width: 100%;
+            max-width: 180px;
+            height: auto;
+            border: 10px solid #007bff;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KGLV1576M0"></script>
-    <!-- Link para o arquivo de script JavaScript -->
-    <script src="scripts.js" defer></script>
-    <!-- Adicione o script para Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9013233807727287"
-     crossorigin="anonymous"></script>
-	 
+    <!-- Script JavaScript incorporado -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-KGLV1576M0');
+        gtag('config', 'AW-862283090');
+
+        // Event snippet for Rota conversion page
+        gtag('event', 'conversion', { 'send_to': 'AW-862283090/e01VCKSky40ZENLKlZsD' });
+
+        // Event snippet for FinalizaçãoDeCompra conversion page
+        gtag('event', 'conversion', { 'send_to': 'AW-862283090/iFwVCPnRko0ZENLKlZsD' });
+
+        // Melhoria na interação usando JavaScript
+        // Função para ação de compra
+        function comprar() {
+            // Código para a ação de compra (pode ser adicionado aqui)
+
+            // Redirecionamento para o novo link da Eduzz
+            window.location.href = "https://bit.ly/VendasEm48H";
+        }
+
+        // Função para relatar a conversão ao clicar no botão de compra
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof (url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-862283090/iFwVCPnRko0ZENLKlZsD',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
 </head>
 
 <body>
 
-	<!-- Página 1 -->
-	
+    <!-- Página 1 -->
     <section>
-			<h1>Venda E-books, Cursos Online e Serviços pelo Instagram</h1>
-		<img src="https://raw.githubusercontent.com/noviso123/Meu-Site/main/Imagem1.png" alt="Imagem 1" class="rounded-luminous-img" align="left">
-				<br><p>A maioria das pessoas acha que para vender através do Instagram é  necessário ter muitos seguidores... Eu vou te mostrar como transformar desconhecidos em alunos usando apenas o Instagram. Por apenas R$ 29,90 você vai aprender o que poucos sabem sobre vendas online. Esta é a sua chance de transformar o seu Instagram em uma máquina de vendas automáticas!</p>
+        <h1>Venda E-books, Cursos Online e Serviços pelo Instagram</h1>
+        <img src="https://raw.githubusercontent.com/noviso123/Meu-Site/main/Imagem1.png" alt="Imagem 1" class="rounded-luminous-img" align="left">
+        <br>
+        <p>A maioria das pessoas acha que para vender através do Instagram é necessário ter muitos seguidores... Eu vou te mostrar como transformar desconhecidos em alunos usando apenas o Instagram. Por apenas R$ 29,90 você vai aprender o que poucos sabem sobre vendas online. Esta é a sua chance de transformar o seu Instagram em uma máquina de vendas automáticas!</p>
     </section>
-	<section>
-		<h2>Venda todos os dias usando o Instagram mesmo que tenha poucos seguidores</h2>
-			<p><b>Me dê 2 minutos da sua atenção</b> e eu te mostrarei como vender através do Instagram<br>
-				- Sem precisar contatar ferramentas.<br>
-                - Independente do número de seguidores que você tem.<br>
-                - Sem precisar contratar pessoas.<br>
-                - Sem precisar passar meses aprendendo uma nova habilidade.<br>
-				Topa? Então vamos lá!<br>
+    <section>
+        <h2>Venda todos os dias usando o Instagram mesmo que tenha poucos seguidores</h2>
+        <p><b>Me dê 2 minutos da sua atenção</b> e eu te mostrarei como vender através do Instagram<br>
+            - Sem precisar contatar ferramentas.<br>
+            - Independente do número de seguidores que você tem.<br>
+            - Sem precisar contratar pessoas.<br>
+            - Sem precisar passar meses aprendendo uma nova habilidade.<br>
+            Topa? Então vamos lá!<br>
             A verdade é que estão complicando as coisas para você quando o assunto é vender através da internet. O motivo é simples, quanto mais complicam, mais oportunidades de "empurrarem" algo para você aparecem. Existem alguns mitos que estão muito enraizados na mente das pessoas quando o assunto é vender através da internet... Gere muito conteúdo gratuito sem vender nada... Espalhe conteúdos gratuitos através de anúncios... Crie primeiro uma audiência para depois vender... As minhas perguntas são:<br>
-                - Se você trabalha de graça quem vai pagar os seus boletos?<br>
-                - Se você não fatura nada como vai investir em anúncios para espalhar o seu conteúdo?<br>
-                - Se você não fatura nada como vai criar uma audiência?<br>
-            <b>É exatamente essa a minha proposta com o e-book Venda Cursos e Serviços através do Instagram, te ensinar apenas o que importa para sair na frente e começar a ter lucro de <br>verdade usando apenas o Instagram mesmo que tenha poucos seguidores. Para colocar esse passo a passo em prática você não vai precisar:</b>
+            - Se você trabalha de graça quem vai pagar os seus boletos?<br>
+            - Se você não fatura nada como vai investir em anúncios para espalhar o seu conteúdo?<br>
+            - Se você não fatura nada como vai criar uma audiência?<br>
+            <b>É exatamente essa a minha proposta com o e-book Venda Cursos e Serviços através do Instagram, te ensinar apenas o que importa para sair na frente e começar a ter lucro de verdade usando apenas o Instagram mesmo que tenha poucos seguidores. Para colocar esse passo a passo em prática você não vai precisar:</b>
             Contratar ninguém. Gastar uma fortuna com ferramentas. Dominar tráfego pago. Tudo o que tem a fazer é clicar no botão e garantir o seu e-book POR APENAS R$ 29,90.
-            <b>Boa leitura e boas vendas!</b></p>
-	<img src="https://raw.githubusercontent.com/noviso123/Meu-Site/main/Imagem2.png" alt="Imagem 2" class="rounded-luminous-img" align="left">
-        <br><h2>Veja o que você vai aprender neste e-book</h2>
+            <b>Boa leitura e boas vendas!</b>
+        </p>
+        <img src="https://raw.githubusercontent.com/noviso123/Meu-Site/main/Imagem2.png" alt="Imagem 2" class="rounded-luminous-img" align="left">
+        <br>
+        <h2>Veja o que você vai aprender neste e-book</h2>
         <p>Como vender através do Instagram mesmo que tenha poucos seguidores...
-		   Estratégia de venda em 48 horas.
-           Link de treinamento completo.
-           Validação de Lead Qualificado.</p>
-	</section>
-	        <!-- Depoimentos reais e sociais -->
-	<section>
+            Estratégia de venda em 48 horas.
+            Link de treinamento completo.
+            Validação de Lead Qualificado.</p>
+    </section>
+
+    <!-- Depoimentos reais e sociais -->
+    <section>
         <div class="testimonial">
             <div class="testimonial-item">
                 <img src="https://raw.githubusercontent.com/noviso123/Meu-Site/main/Dep1.jpeg" alt="Depoimento 1">
@@ -66,24 +202,24 @@
                 <p>Transformou minha abordagem de vendas. Resultados incríveis!</p>
             </div>
         </div>
-	</section>
-	
-	<section>
-	<img src="https://raw.githubusercontent.com/noviso123/Meu-Site/main/Imagem3.png" alt="Imagem 3" class="rounded-luminous-img" align="right">
-        <br><h2>Resumindo...</h2>
-        <p>Você vai vender todos os dias através do instagram mesmo que tenha poucos seguidores e sem gerar conteúdos gratuitos…</p>
-        <br><div class="btn-container">
+    </section>
+
+    <section>
+        <img src="https://raw.githubusercontent.com/noviso123/Meu-Site/main/Imagem3.png" alt="Imagem 3" class="rounded-luminous-img" align="right">
+        <br>
+        <h2>Resumindo...</h2>
+        <p>Você vai vender todos os dias através do Instagram mesmo que tenha poucos seguidores e sem gerar conteúdos gratuitos…</p>
+        <div class="btn-container">
             <a class="btn btn-comprar" href="https://bit.ly/VendasEm48H" onclick="comprar()">Comprar Agora</a>
-	</section>
-	
+        </div>
+    </section>
+
     <!-- Página 5 -->
-	
-	<section>
+    <section>
         <h3>Eu preparei da melhor forma para você</h3>
         <p>Podendo parcelar em até 5X Sem Juros</p>
         <!-- Conteúdo adicional -->
         <p>Conteúdo direto ao ponto para iniciar no mercado. Oferta especial para iniciantes.</p>
-
         <!-- Informações sobre o E-book e oferta de preço -->
         <div>
             <!-- Botão para redirecionar para o novo link de checkout -->
@@ -93,15 +229,11 @@
 
     <!-- Novo rodapé com a informação atualizada -->
     <footer>
-        <p>Aviso Legal: Ao adquirir qualquer Conteúdo através da Plataforma Eduzz você declara estar ciente de que os
-            resultados obtidos dependem exclusivamente de você, de sua experiência prévia, habilidade, dedicação e da
-            forma como compreende e aplica as informações contidas no Conteúdo. Desta forma nem a Eduzz nem o Produtor
-            deste Conteúdo fazem qualquer promessa ou garantia de resultados e os casos ou depoimentos mencionados são
-            apenas referências e não representam os resultados da totalidade de nossos Clientes/Alunos. Leia aqui
-            nosso disclaimer completo presente em nossos Termos de Uso e Aquisição.</p>
+        <p>Aviso Legal: Ao adquirir qualquer Conteúdo através da Plataforma Eduzz você declara estar ciente de que os resultados obtidos dependem exclusivamente de você, de sua experiência prévia, habilidade, dedicação e da forma como compreende e aplica as informações contidas no Conteúdo. Desta forma nem a Eduzz nem o Produtor deste Conteúdo fazem qualquer promessa ou garantia de resultados e os casos ou depoimentos mencionados são apenas referências e não representam os resultados da totalidade de nossos Clientes/Alunos. Leia aqui nosso disclaimer completo presente em nossos Termos de Uso e Aquisição.</p>
         <p>© 2024 - Eduzz - Todos os Direitos Reservados</p>
-		<img src="https://raw.githubusercontent.com/noviso123/Meu-Site/main/selo-de-garantia.png" alt="Selo de Garantia" class="selo">
+        <img src="https://raw.githubusercontent.com/noviso123/Meu-Site/main/selo-de-garantia.png" alt="Selo de Garantia" class="selo">
     </footer>
+
 </body>
 
 </html>
